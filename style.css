@@ -1,0 +1,77 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    padding: 25px;
+    min-height: 100px;
+    background-color: rgba(140, 235, 117, 0.962);
+    padding-bottom: ;
+}
+
+.container form{
+    padding: 10px;
+    height: 600px;
+    width: 800px;
+    background-color: rgb(246, 251, 253);
+    box-shadow: 0 5px 10px rgb(75, 74, 74);
+}
+.container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.container form .row .col{
+    flex: 1 1 250px;
+}
+
+.container form .row .col .title{
+    font-size: 20px;
+    color: rgb(5, 5, 31);
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.container form .row .col .inputBox{
+    margin: 15px 0;
+    
+}
+.container form .row .col .inputBox span{
+    margin-bottom: 10px;
+    display: block;
+}
+.container form .row .col .inputBox input{
+    width: 250px;
+    border: 1px solid rgb(223, 208, 239);
+    padding: 10px 10px;
+    font-size: 15px;
+    text-transform: ;
+}
+.container form .row .col .inputBox input:focus{
+    border: 1px solid black;
+
+}
+.container form .row .col .fles{
+    display: flex;
+    gap: 15px;
+}
+.container form .row .col .fles.inputBox{
+    margin-top: 5px;
+}
+.container form .row .col .inputBox img{
+    height: 70px;
+    margin-top: 5px;
+    filter: drop-shadow(rgb(21, 21, 21));
+}
+.container form .submit-btn{
+    width: 800px;
+    height:30px ;
+    padding: 12px;
+    font-size: 17px;
+    background: rgba(21, 226, 3, 0.941);
+    color: rgb(3, 3, 3);
+    margin-top: 5px;
+    cursor: pointer;
+    border: white;
+    box-shadow: 0 5px 11px rgb(102, 214, 147);
+}
